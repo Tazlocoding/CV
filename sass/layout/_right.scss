@@ -1,0 +1,58 @@
+
+.block-right {
+  width: 70%;
+
+}
+.fas {
+  color: $colour-text-left;
+  font-size: 20px; 
+  margin: 0 10px 0 50px;
+ }
+.block-right__ligne {
+  display: flex;
+  padding: 2px;
+  margin-top: 5px;
+}
+.block-right__formation {
+  display: flex;
+  margin-top: 10px;
+}
+.block-right__title {
+  margin: 0 5px 10px 5px;
+}
+.block-right__pro {
+  margin: 10px;
+}
+.block-right__point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 2px solid $colour-text-left;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.block-right__cercle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid $colour-text-left;
+  margin: -7px;
+}
+.block-right__gauche {
+  width: 30%;
+  margin: 10px 20px;
+}
+.block-right__droite {
+  width: 100%;
+  margin: 5px 30px;
+}
+.block-right__formation,
+.block-right__experience {
+  margin-top: 30px;
+}
+
+.block-right__gauche,
+.block-right__droite {
+  margin: 20px 25px;
+}
+
