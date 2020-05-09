@@ -1,0 +1,24 @@
+{
+  "name": "laurent",
+  "version": "0.1.0",
+  "description": "création d'un cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass sass/style.scss public/css/style.css",
+    "watch": "node-sass sass/style.scss public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tazlocoding/CV.git"
+  },
+  "author": "Tazlo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tazlocoding/CV/issues"
+  },
+  "homepage": "https://github.com/Tazlocoding/CV#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
