@@ -1,228 +1,199 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Mon cv" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://tazlocoding.github.io/curriculum-vitae" />
-    <meta property="og:image" content="http://example.com/profil.jpg" />
-    <meta property="og:description" content="Présentation de mon parcour par mon cv et de mon avenir professionnel" />
-    <!-- Twitter Card data -->
-    <meta name="twitter:title" content="CV" />
-    <meta name="twitter:description" content="Présentation de mon parcour et de mon avenir professionnel"/>
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/41790c10cc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Daucé laurent</title>
-  </head>
-  <body>
-    
-    <header class="header">
-      <section class="header__img">
-        <img class="asideSection__photo" src="img/profil.jpg" alt="profil"/>
-      </section>
-      <section class="header__titre">
-        <h1><span class="headerFirstName">laurent</span> daucé</h1>
-        <h2><span>Dévelo</span>ppeur web junior</h2> 
-      </section>
-    </header>
-    
-    <main class="container">
-      <!-- Partie gauche -->
-      <aside class="asideSectionLeft">
-        
-        <!-- Partie contact -->
-        <section >
-          <h3 class="asideSection__titre">contact</h3>
-          <div class="asideSection__contact">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Mon cv" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://tazlocoding.github.io/curriculum-vitae" />
+  <meta property="og:image" content="http://example.com/profil.jpg" />
+  <meta property="og:description" content="Présentation de mon parcour par mon cv et de mon avenir professionnel" />
+  <!-- Twitter Card data -->
+  <meta name="twitter:title" content="CV" />
+  <meta name="twitter:description" content="Présentation de mon parcour et de mon avenir professionnel"/>
+  <script src="https://kit.fontawesome.com/41790c10cc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="public/css/style.css">
+  <title>CV</title>
+</head>
+<body>
+  <header class="header">
+    <section class="header__img">
+      <img class="asideSection__photo" src="public/img/Tazlo.jpg" alt="profil"/>
+    </section>
+    <section class="header__title">
+      <h1><span class="header__FirstName">Laurent</span> Daucé</h1>
+      <h2><span>Dévelo</span>ppeur web junior</h2> 
+    </section>
+  </header>
+  <main class="container">
+    <!-- Partie gauche -->
+    <aside class="block-left"> 
+    <!-- Partie contact -->
+      <section >
+        <h3 class="block-left__title">contact</h3>
+          <div class="block-left__text">
             <p>Adresse<br/>
-            Le clos neuf <br/>
-            35420 St Georges de Rlt</p><br/>
+               Le clos neuf <br/>
+               35420 St Georges de Rlt</p><br/>
             <p>Téléphone<br/>
-            07 78 39 30 01<p><br/>
+              <a href="tel:+330778393001">07 78 39 30 01</a><p><br/>
             <p>Email<br/>
-            gwelaurentaz@gmail.com</p><br/>
-            <p>Site web<br/>
-            www.daucelaurent.fr</p><br/>
+              <a href="mailto:gwelaurentaz@gmail.com">gwelaurentaz@gmail.com</a></p><br/>
             <p>Linkedin<br/>
-            /in/daucé-laurent/</p><br/>
+            <a href="http://ca.linkedin.com/in/daucé-laurent/">in/daucé-laurent</a></p><br/>
           </div>
-        </section>
-        <!-- Partie A propos -->
-        <section>
-          <h3 class="asideSection__titre">à propos de moi</h3>
-          <div class="asideSection__texte">
-          <p>En reconversion professionnelle, je me dirige vers le développement web. Je me forme avec OpenClasrooms pour apprendre le métier.
-            Ayant suivi une formation découverte en développement d'Applications Hybride d'une durée de 5 mois, et motivé par l'idée de rejoindre une structure à taille humaine.
-            Je suis à la recherche d'expériences qui me permettront de mettre en
-            avant mes connaissances et surtout d'apprendre.
-          </p>
-        </div>
       </section>
-      <section class="asideSection__position">
-        <h3 class="asideSection__titre">loisirs</h3>
-        <div class="asideSection__logo">
-            <i class="asideSectionLogo fa fa-biking "></i>
-            <i class="asideSectionLogo fa fa-hiking"></i>
-            <img class="asideSectionLogo" src="img/jardinage.png" alt="un jardinier"/>
-        </div>
+          <!-- Partie A propos -->
+      <section>
+        <h3 class="block-left__title">à propos de moi</h3>
+          <div class="block-left__text">
+            <p>En reconversion professionnelle, je me dirige vers le développement web. 
+              Aprés avoir suivi une formation tremplin en Développement d'Applications Hybride d'une durée de 5 mois, 
+              Je me forme par le biais d'Openclassrooms, suivi par un mentor avec soutenance.
+              Je suis à la recherche d'expériences qui me permettront de mettre en
+              avant mes connaissances et surtout d'apprendre.
+            </p>
+          </div>
       </section>
-        
-      </aside>
-     
-      <!-- Partie droite -->
-      <article class="sectionRight">        
-        <!-- Partie formation -->
-        <section>
-          <div class="mainSection">
+      <section class="block-left__position">
+        <h3 class="block-left__title">loisirs</h3>
+          <div class="block-left__logo">
+            <i class="block-left--logo fa fa-biking "></i>
+            <i class="block-left--logo fa fa-hiking"></i>
+            <img class="block-left--logo" src="public/img/jardinage.png" alt="un jardinier"/>
+          </div>
+      </section>   
+    </aside>
+    <!-- Partie droite -->
+    <article class="block-right">        
+    <!-- Partie formation -->
+      <section>
+        <div class="block-right__formation">
           <i class="fas fa-graduation-cap"></i>
-          <h3 class="main__titre">formation</h3>
+          <h3 class="block-right__title">formation</h3>
         </div>
-          <hr>
-    
-          <div class="ligne">
-            <div class="point">
-              <div class="cercle"></div>
-            </div>
-            <div class="gauche">  
-              <p>2020<br/> A distance</p>
-            </div>
-            <div class="droite">
-              <p><span>OpenClassrooms</span><br/> Développement web</p><br/>
-              <p class="text">Apprentissage de langages informatique pour la création de site web personnalisé, des outils de versionning que sont Git et GitHub.
-                Utile pour une production individuel et qui le deviendra encore plus pour un travail en équipe.</p>
-            </div>
-          </div>
-          <div class="ligne">
-            <div class="point"></div>
-            <div class="gauche">
-              <p>2019-2020<br/>Rennes</p>
-            </div>
-            <div class="droite">
-              <p><span>Buroscope</span><br/> Développement d'Application Hybride</p><br/>
-              <p class="text">Découverte du langage Javascript et de bibliothèques, telle que React JS et React Native, avec comme 
-                objectif une formation diplomante.</p>
-            </div>
-          </div>
-          <div class="ligne">
-            <div class="point"></div>
-            <div class="gauche">
-              <p>2019<br/>Fougéres</p>
-            </div>
-            <div class="droite">
-              <p><span>CLPS</span><br/> Prestation AGEFIPH Objectif Reconversion</p><br/>
-              <p class="text">En vu d'une reconversion professionnelle, optimisation du CV, recherches d'opportunités profesionnelles,élaboration de lettre de motivation et simulation d'entretien d'embauche  </p>
-            </div>
-          </div>
-          <div class="ligne">
-            <div class="point"></div>
-            <div class="gauche">
-              <p>2018<br/>Hamelin</p>
-            </div>
-            <div class="droite">
-              <p><span>Minoterie des Bois Olives</span><br/> Stage Secrétaire-comptable</p><br/>
-              <p class="text">Objectif de reconversion au seins de l'entreprise, appel téléphonique auprès des clients, decouverte de facturation, gestion des stocks.</p>
-            </div>
-          </div>
-          <div class="ligne">
-            <div class="point"></div>
-            <div class="gauche">
-              <p>2009<br/>St Quentin</p>
-            </div>
-            <div class="droite">
-              <p><span>CQP</span><br/> Conducteur de Moulin</p><br/>
-              <p class="text">Gerer les reglages, l'entretien et anticiper les pannes des machines , gestion des planning de l'équipe, </p>
-            </div>
-          </div>
-          <div class="ligne">
-            <div class="point"></div>
-            <div class="gauche">
-              <p>1994<br/> Cherbourg</p>
-            </div>
-            <div class="droite">
-              <p><span>Bac Pro EIE</span><br/> (Equipement et installation Electrique)</p><br/>
-              <p class="text">Diplôme Obtenu</p>
-            </div>
-          </div>
-        
-        </section >
-        <!-- Partie ex pro -->
-        <section class="section__pro">
-          <div class="mainSection">
+        <hr>
+
+        <div class="block-right__ligne">
+        <div class="block-right__point">
+        <div class="block-right__cercle"></div>
+        </div>
+        <div class="block-right__gauche">  
+          <p>2020<br/> A distance</p>
+        </div>
+        <div class="block-right__droite">
+          <p><span>OpenClassrooms</span><br/> Développement web</p><br/>
+          <p class="block__text">Apprentissage de langages informatique pour la création de site web personnalisé, des outils de versionning que sont Git et GitHub.
+             Utile pour une production individuel et qui le deviendra encore plus pour un travail en équipe.</p>
+        </div>
+        </div>
+        <div class="block-right__ligne">
+        <div class="block-right__point"></div>
+        <div class="block-right__gauche">
+          <p>2019-2020<br/>Rennes</p>
+        </div>
+        <div class="block-right__droite">
+          <p><span>Buroscope</span><br/> Développement d'Application Hybride</p><br/>
+          <p class="block__text">Découverte du langage Javascript et de bibliothèques, telle que React JS et React Native, avec comme 
+            objectif une formation diplomante.</p>
+        </div>
+        </div>
+        <div class="block-right__ligne">
+        <div class="block-right__point"></div>
+        <div class="block-right__gauche">
+          <p>2019<br/>Fougéres</p>
+        </div>
+        <div class="block-right__droite">
+          <p><span>CLPS</span><br/> Prestation AGEFIPH Objectif Reconversion</p><br/>
+          <p class="block__text">En vu d'une reconversion professionnelle, optimisation du CV, recherches d'opportunités profesionnelles,élaboration de lettre de motivation et simulation d'entretien d'embauche  </p>
+        </div>
+        </div>
+        <div class="block-right__ligne">
+        <div class="block-right__point"></div>
+        <div class="block-right__gauche">
+          <p>2018<br/>Hamelin</p>
+        </div>
+        <div class="block-right__droite">
+          <p><span>Minoterie des Bois Olives</span><br/> Stage Secrétaire-comptable</p><br/>
+          <p class="block__text">Objectif de reconversion au seins de l'entreprise, appel téléphonique auprès des clients, decouverte de facturation, gestion des stocks.</p>
+        </div>
+        </div>
+        <div class="block-right__ligne">
+        <div class="block-right__point"></div>
+        <div class="block-right__gauche">
+          <p>2009<br/>St Quentin</p>
+        </div>
+        <div class="block-right__droite">
+          <p><span>CQP</span><br/> Conducteur de Moulin</p><br/>
+          <p class="block__text">Gerer les reglages, l'entretien et anticiper les pannes des machines , gestion des planning de l'équipe, </p>
+        </div>
+        </div>
+        <div class="block-right__ligne">
+        <div class="block-right__point"></div>
+        <div class="block-right__gauche">
+          <p>1994<br/> Cherbourg</p>
+        </div>
+        <div class="block-right__droite">
+          <p><span>Bac Pro EIE</span><br/> (Equipement et installation Electrique)</p><br/>
+          <p class="block__text">Diplôme Obtenu</p>
+        </div>
+        </div>
+  
+      </section >
+      <!-- Partie ex pro -->
+      <section class="block-right__pro">
+        <div class="block-right__formation">
           <i class="fas fa-briefcase"></i>
-          <h3 class="main__titre">expérience professionnelle</h3>
-          </div>
-          <hr>
-         
-            <div class="ligne">
-              <div class="point">
-                <div class="cercle"></div>
-              </div>
-              <div class="gauche">
-                <p>1998-2018</p><br/>
-              </div>
-              <div class="droite">
-                <p><span>Chef Meunier Minoterie des Bois Olives</span></p><br/>
-                <p class="text">Gérer les commandes de matières premières, de la transformation à la production et
-                  jusqu'au chargement dans les camions </p>
-              </div>
-            </div>
-            <div class="ligne">
-              <div class="point"></div>
-              <div class="gauche">
-                <p>1997-1998</p><br/>
-              </div>
-              <div class="droite">
-                <p><span>Syndicat Eaux potable Avranches Sud</span></p><br/>
-                <p class="text">Suivi de la prise d'eau en rivière et traité pour devenir de l'eau potable</p>
-              </div>
-            </div>
-            <div class="ligne">
-              <div class="point"></div>
-              <div class="gauche">
-                <p>1996-1997</p><br/>
-              </div>
-              <div class="droite">
-                <p><span>Réalisation d'armoire électrique</span></p><br/>
-                <p class="text">Création d'armoire pour raclette à lisier installer chez les agriculteurs</p>
-              </div>
-            </div>
-            <div class="ligne">
-              <div class="point"></div>
-              <div class="gauche">
-                <p>1994-1995</p><br/> 
-              </div>
-              <div class="droite">
-                <p><span>Monteur machine à traire</span></p><br/>
-                <p class="text">Installation pour la traite des vaches dans de petites et très grandes fermes</p>
-              </div>
-            </div> 
-          </section>
-       
-     <!-- Partie recommandation -->
-     <section class="section__recommandation">
-      <div class="mainSection">
-      <i class="fas fa-pen"></i>
-      <h3 class="main__titre">recommandations</h3>
-      </div>
-      <hr>    
-        <div class="ligne">
-          <div class="articleRecommandation__gauche">
-            <p><span>Billot Jean-françois</span></p>
-            <p>Formateur Buroscope</p>  
-            <p>Email : j.billot@buroscope.fr</p>
-          </div>
-          <div class="articleRecommandation__droite">
-            <p><span>Pinel Philippe</span></p>
-            <p>Formateur Buroscope</p>
-            <p>Email : p.pinel@buroscope.fr</p>
-          </div>
+          <h3 class="block-right__title">expérience professionnelle</h3>
         </div>
-     </section>
+        <hr>
+   
+        <div class="block-right__ligne">
+        <div class="block-right__point">
+        <div class="block-right__cercle"></div>
+        </div>
+        <div class="block-right__gauche">
+          <p>1998-2018</p><br/>
+        </div>
+        <div class="block-right__droite">
+          <p><span>Chef Meunier Minoterie des Bois Olives</span></p><br/>
+          <p class="block__text">Gérer les commandes de matières premières, de la transformation à la production et
+            jusqu'au chargement dans les camions </p>
+        </div>
+        </div>
+        <div class="block-right__ligne">
+        <div class="block-right__point"></div>
+        <div class="block-right__gauche">
+          <p>1997-1998</p><br/>
+        </div>
+        <div class="block-right__droite">
+          <p><span>Syndicat Eaux potable Avranches Sud</span></p><br/>
+          <p class="block__text">Suivi de la prise d'eau en rivière et traité pour devenir de l'eau potable</p>
+        </div>
+        </div>
+        <div class="block-right__ligne">
+        <div class="block-right__point"></div>
+        <div class="block-right__gauche">
+          <p>1996-1997</p><br/>
+        </div>
+        <div class="block-right__droite">
+          <p><span>Réalisation d'armoire électrique</span></p><br/>
+          <p class="block__text">Création d'armoire pour raclette à lisier installer chez les agriculteurs</p>
+        </div>
+        </div>
+        <div class="block-right__ligne">
+        <div class="block-right__point"></div>
+        <div class="block-right__gauche">
+          <p>1994-1995</p><br/> 
+        </div>
+        <div class="block-right__droite">
+          <p><span>Monteur machine à traire</span></p><br/>
+          <p class="block__text">Installation pour la traite des vaches dans de petites et très grandes fermes</p>
+        </div>
+        </div> 
+      </section>
     </article>
   </main>
-  </body>
+</body>
 </html>
