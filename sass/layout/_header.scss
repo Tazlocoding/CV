@@ -2,26 +2,30 @@
   display: flex;
   justify-content: center;
   width: 100%; 
+  .header__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 150px;
+    background-color: $colour-background-right;
+  .asideSection__photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    }
+  }
+  .header__title {
+    width: 70%;
+    padding: 0 35px;
+    margin-top: 4%;
+    .header__FirstName {
+      color: $colour-background-right;
+    }
+  }
 }
 
-.header__img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  height: 150px;
-  background-color: $colour-background-right;
-}
-.asideSection__photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
-.header__title {
-  width: 70%;
-  padding: 0 35px;
-  margin-top: 4%;
-}
-.header__FirstName {
-  color: $colour-background-right;
-}
+
+
+
+
