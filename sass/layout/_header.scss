@@ -9,10 +9,13 @@
     width: 30%;
     height: 150px;
     background-color: $colour-background-right;
-  .asideSection__photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    .asideSection__photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    @media screen and (max-width: 900px) {
+      width: 100%;
     }
   }
   .header__title {
@@ -22,10 +25,13 @@
     .header__FirstName {
       color: $colour-background-right;
     }
+    @media screen and (max-width: 900px) {
+      margin: 4% auto;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
   }
 }
-
-
-
-
 
