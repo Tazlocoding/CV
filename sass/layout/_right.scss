@@ -55,3 +55,16 @@
   margin: 0 10px 0 50px;
  }
 
+@media screen and (max-width: 900px) {
+  .block-right{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .block-right__gauche {
+    margin: 20px 10px;
+  }
+  .block-right__droite {
+    margin: 20px 15px;
+  }
+}
