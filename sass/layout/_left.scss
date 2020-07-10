@@ -34,6 +34,7 @@
   }
 }
 
+
 .fa-biking,.fa-hiking{
   color: rgb(68, 65, 60);
   font-size: 35px;
@@ -54,4 +55,20 @@ a {
       bottom: 0;
     }
   }
+  .block-left__text--reponsive {
+    display: flex;
+    
+    &--left{
+      width: 50%;
+     float: left;
+     padding: 10px 10px;
+    }
+    &--right{
+      width: 50%;
+     float: right;
+    
+    }
+    
+  }
+  
 }
