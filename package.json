@@ -1,6 +1,6 @@
 {
-  "name": "laurent",
-  "version": "0.1.0",
+  "name": "tazlo",
+  "version": "0.1.1",
   "description": "création d'un cv",
   "main": "index.js",
   "scripts": {
